@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   background-color: #eee;
   margin: 0;
   padding: 0;
@@ -33,7 +34,9 @@ ul {
   height: 100vh;
 }
 
-.title, .controls, .button {
+.title,
+.controls,
+.button {
   flex: none;
 }
 
@@ -63,4 +66,31 @@ ul {
 
 .todo-container:first-of-type {
   border-top: 1px solid #333;
+}
+
+li {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid black 1px;
+  font-size: large;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem; 
+}
+
+
+input[type="text"] {
+
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  cursor: pointer;
+  width: 100%;
 }
